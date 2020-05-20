@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "name": "oembed-parser-demo",
+  "homepage": "https://ndaidong.github.io/oembed-parser-demo",
+  "description": "Simple web app for trying oembed-parser quickly",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndaidong/oembed-parser-demo"
+  },
+  "author": "@ndaidong",
+  "engines": {
+    "node": ">= 10.14.2"
+  },
+  "scripts": {
+    "start": "DEBUG=webrender:* PORT=7215 webren run ./",
+    "release": "DEBUG=webrender:* webren build ./ ./docs",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "bellajs": "^8.0.2",
+    "lit-html": "^1.2.1",
+    "webrender": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-goes": "^1.1.8"
+  },
+  "license": "MIT"
+}
