@@ -1,7 +1,5 @@
 // templates --> main.js
 
-import {truncate} from 'bellajs';
-
 import {html} from 'lit-html';
 import {unsafeHTML} from 'lit-html/directives/unsafe-html.js';
 

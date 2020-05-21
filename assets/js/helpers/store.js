@@ -1,6 +1,6 @@
 // helpers -> store.js
 
-import {clone, escapeHTML} from 'bellajs';
+import {escapeHTML} from 'bellajs';
 
 const createStore = () => {
   const state = {
